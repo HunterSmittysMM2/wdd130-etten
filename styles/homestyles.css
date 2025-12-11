@@ -1,0 +1,59 @@
+.headblock {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.homeaboutus {
+    border-style: solid;
+    border-color: #feae3d;
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto; 
+    margin-bottom: 5%;
+    color: white;
+    background-color: #cb9188;
+}
+.homeaboutus p {
+    font-size: 50px;
+    font-family: "Permanent Marker";
+}
+.homeaboutus h2 {
+    font-family: "Work Sans";
+}
+.centerphotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+.centerphotos img {
+    border-style: solid;
+    border-color: #feae3d;
+    border-width: 3px;
+    height: 300px;
+    width: 300px;
+    justify-self: center;
+    margin: 40px;
+}
+.homeheadphoto {
+    width: 70%;
+    height: auto;
+    display: block;
+    filter: brightness(60%);
+}
+.headtitle {
+    position: absolute;
+    color: white;
+    font-size: 4em;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    z-index: 1;
+}
