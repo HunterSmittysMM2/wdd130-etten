@@ -21,9 +21,11 @@
 .homeaboutus p {
     font-size: 50px;
     font-family: "Permanent Marker";
+    
 }
 .homeaboutus h2 {
     font-family: "Work Sans";
+    padding: 20px;
 }
 .centerphotos {
     display: grid;
