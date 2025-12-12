@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/headerfooter.css">
 </head>
 <header>
-       <img src="../images/Screenshot 2025-12-02 125524.png" alt="Dorm Dishes Logo">
+    <div class="logo">
+        <img src="../images/Screenshot 2025-12-02 125524.png" alt="Dorm Dishes Logo">
+    </div>
     <div class="links">
         <a href="index.html">Home</a>
         <a href="entree.html">Entrees</a>
@@ -16,15 +19,13 @@
 </header>
 <body>
     <section id="header">
-        <img src="/images/thumb-1920-873362.jpg" alt="scattered deserts and fruits on dark wood table" \>
-    </section>
-    <section id="recipes">
-        <section id="nobake">
-            <img src="/images\nobakecookies.png" alt="yummy nobake cookies" \>
-            <h1>No Bake Cookies (Dessert 1)</h1>
-            <h2>Recipe Info:</h2>
-            <p>Prep Time: 10 mins<br>Cook Time: 5 mins<br>Additional Time: 30 mins<br>Total Time: 45 mins<br>Servings: 36<br>Yield: 3 dozen</p>
+    <h1>Desserts</h1>
+    </section id="recipes">
+        <div id="nobake">
+            <img id="bakenot" src="/images\nobakecookies.png" alt="yummy nobake cookies" \>
+            <h1>No Bake Cookies</h1>
             <ul>
+                Recipe Info:<br>Prep Time: 10 mins<br>Cook Time: 5 mins<br>Additional Time: 30 mins<br>Total Time: 45 mins<br>Servings: 36<br>Yield: 3 dozen<br><br>
                 Ingredients 
                 <li>1 ¾ cups white sugar (can use natural sweeteners) </li>
                 <li>½ cup butter </li>
@@ -44,13 +45,10 @@
                 <li>Drop by teaspoonfuls onto waxed paper. </li>
                 <li>Let cool until hardened. Enjoy! </li>
             </ol>
-        </section>
-        <section id="chip">
-            <img src="/images\chocolatechipcookies.png" alt="yummy chocolate chip cookies" \>
-            <h1>Chocolate Chip Cookies (Dessert 2)</h1>
-            <h2>Recipe Info:</h2>
-            <p>Prep Time: 10 mins<br>Cook Time: 10 mins<br>Total Time: 20 mins<br>Servings: 24<br>Yield: 24 dozen</p>
+        </div>
+        <div id="chip">
             <ul>
+                Recipe Info:<br>Prep Time: 10 mins<br>Cook Time: 10 mins<br>Total Time: 20 mins<br>Servings: 24<br>Yield: 24 dozen<br><br>
                 Ingredients 
                 <li>1 ½ cups brown sugar (can use white sugar, honey, or maple syrup) </li>
                 <li>1 cup butter, softened </li>
@@ -64,19 +62,35 @@
                 <li>Beat brown sugar and butter together in a large bowl with an electric mixer until light and fluffier in texture. Beat in eggs, one at a time. Gradually stir in flour until well combined; fold in chocolate chips. </li>
                 <li>Drop dough by rounded tablespoons 2 inches apart onto ungreased baking sheets. Bake in the preheated oven until edges are golden brown, 10 to 15 minutes. Cool cookies on baking sheets for a few minutes before transferring to wire racks. </li>
             </ol>
-        </section>
-    </section>
- <footer>
-        <p>Nori Van Etten</p>
-        <p>Dorm Dishes &copy;</p>
-        <div class="linkssequal">
-            <a href="/ice/index.html">Home</a>
-            <a href="/ice/entree.html">Entrees</a>
-            <a href="/ice/dessert.html">Desserts</a>
-            <a href="facebook.com"> <img src="../images/facebook.webp" alt="Facebook"></a>
-            <a href="instagram.com"> <img src="../images/instagram.webp" alt="Instagram"></a>
-            <a href="twitter.com"> <img src="../images/twitter.webp" alt="Twitter"></a>
+            <h1>Chocolate Chip Cookies</h1>
+            <img id="cocochip" src="/images\chocolatechipcookies.png" alt="yummy chocolate chip cookies" \>
         </div>
+    </section>
+    <section>
+        <h1 id="comments">Comments</h1>
+        <form action="#">
+            <label id="in_name" for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <br><br>
+            <label id="in-comm" for="comment">Comment:</label>
+            <input type="text" id="comment" name="comment">
+        </form>
+    </section>
+<footer>
+    <div class="credits">
+        <!-- <p>Nori Van Etten</p> -->
+        <p>Dorm Dishes &copy;</p>
+    </div>
+    <div class="footerlinks">
+        <a href="/ice/index.html">Home</a>
+        <a href="/ice/entree.html">Entrees</a>
+        <a href="/ice/dessert.html">Desserts</a>
+    </div>
+    <div class="sociallinks">
+        <a class="social" href="facebook.com"> <img src="../images/facebook.webp" alt="Facebook"></a>
+        <a class="social" href="instagram.com"> <img src="../images/instagram.webp" alt="Instagram"></a>
+        <a class="social" href="twitter.com"> <img src="../images/twitter.webp" alt="Twitter"></a>
+    </div>
 </footer>
     
 </body>

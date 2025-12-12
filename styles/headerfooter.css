@@ -9,14 +9,14 @@ header {
     background-color: #cb7188;
     border-style: solid;
     border-width: 2px;
-    height: 300px;
+    height: 250px;
 }
 .links {
     font-family: "Permanent Marker";
     font-size: 80px;
     position: relative;
-    left: 500px;
-    bottom: 80px;
+    left: 300px;
+    bottom: 125px;
 }
 
 .links a {
@@ -31,7 +31,7 @@ header {
 .logo {
     position: relative;
     left: 10px;
-    top: 10px;
+    top: 25px;
 }
 
 .logo img {
@@ -53,8 +53,8 @@ footer {
     font-size: 40px;
 }
 .social img {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 }
 .footerlinks {
     display: flex;

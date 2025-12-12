@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Nanum+Brush+Script&family=Permanent+Marker&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); 
+
+#header {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url("/images/thumb-1920-873362.jpg");
+    text-align: center;
+    font-family: "Permanent Marker";
+    font-size: 100px;
+    
+}
+
+body {
+    background-color: #F7CCBB;
+}
+
+.directions {
+    margin-top: 50px;
+}
+
+#head_img {
+    height: 400px;
+    width: 1000px;
+}
+
+#nobake {
+    display: flex;
+}
+
+#bakenot {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 450px;
+    width: 450px;
+}
+
+#chip {
+    display: flex;
+}
+
+#cocochip {
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 450px;
+    width: 450px;
+}
+
+#comments {
+    text-align: center;
+}
+
+#name {
+    margin-left: 25px;
+}
+
+#in_name {
+    margin-left: 500px;
+}
+
+#in-comm {
+     margin-left: 500px;
+}
